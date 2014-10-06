@@ -1,4 +1,4 @@
---R1, R7, R28, Month and DueWeek calculations
+--R1, R7, R28, Month and DueWeek calculations from an 'ActionTime'
 
 SELECT 
 	* 
