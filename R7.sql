@@ -16,4 +16,3 @@ SELECT
 	, -ceiling(convert(float, DATEDIFF(day, ActionTime, GETDATE())) / 28) AS R28
 	, -DATEDIFF(month, ActionTime, GETDATE()) AS M
 FROM #final6
-WHERE -ceiling(convert(float, DATEDIFF(day, ActionTime, GETDATE())) / 28) >= -12
